@@ -8,3 +8,8 @@ def display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'viol
   puts "I: #{display_rainbow[5]}"
   puts "V: #{display_rainbow[6]}"
 end
+
+color_list = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+
+def display_rainbow(color_list)
+  puts ""
